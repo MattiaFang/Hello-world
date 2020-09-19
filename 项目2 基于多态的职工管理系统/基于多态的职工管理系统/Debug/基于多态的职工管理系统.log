@@ -1,0 +1,19 @@
+﻿生成启动时间为 2020/9/12 14:51:19。
+     1>项目“C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\基于多态的职工管理系统\基于多态的职工管理系统.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt workManager.cpp "职工管理系统.cpp"
+         职工管理系统.cpp
+         workManager.cpp
+         正在生成代码...
+       Link:
+         D:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\Debug\基于多态的职工管理系统.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\Debug\基于多态的职工管理系统.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\Debug\基于多态的职工管理系统.lib" /MACHINE:X86 Debug\boss.obj
+         Debug\employee.obj
+         Debug\manager.obj
+         Debug\workManager.obj
+         "Debug\职工管理系统.obj"
+         基于多态的职工管理系统.vcxproj -> C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\Debug\基于多态的职工管理系统.exe
+     1>已完成生成项目“C:\Users\fangjie\Desktop\黑马 C++\项目2 基于多态的职工管理系统\基于多态的职工管理系统\基于多态的职工管理系统.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.45
