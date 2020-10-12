@@ -3,6 +3,7 @@
 #include<vector>
 #include<map>
 #include "speaker.h"
+#include<algorithm>
 using namespace std;
 
 //设计演讲管理类
@@ -24,6 +25,15 @@ public:
 
 	//初始化容器和属性
 	void initSpeech();
+
+	//创建选手
+	void createSpeaker();
+
+	//开始比赛
+	void startSpeech();
+
+	//开始抽签
+	void speechDraw();
 
 	//成员属性
 	//保留第一轮比赛选手编号容器

@@ -1,14 +1,28 @@
 #include<iostream>
-
+#include<string>
 #include "speechManager.h"
 using namespace std;
+
+//测试代码
+void try_test(SpeechManager sm)
+{
+	//sm.show_Menu();
+
+	for(map<int,Speaker>::iterator it = sm.m_Speaker.begin();it!=sm.m_Speaker.end();it++)
+	{
+		cout<<"选手编号："<<it->first<<"  "
+			<<"姓名："<<it->second.m_Name<<"  "
+			<<"成绩："<<it->second.m_Score[0]<<endl;
+	}
+}
+
 
 int main()
 {
 	SpeechManager sm;
 
 	//测试
-	//sm.show_Menu();
+	//try_test(sm);
 
 	while(true)
 	{
@@ -19,6 +33,8 @@ int main()
 		switch(ch)
 		{
 		case 1:  //开始比赛
+			sm.startSpeech();
+			system("cls");
 			break;
 		case 2:	 //查看记录
 			break;
