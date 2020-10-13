@@ -34,7 +34,6 @@ int main()
 		{
 		case 1:  //开始比赛
 			sm.startSpeech();
-			system("cls");
 			break;
 		case 2:	 //查看记录
 			break;

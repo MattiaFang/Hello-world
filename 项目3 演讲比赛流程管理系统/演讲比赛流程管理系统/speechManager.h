@@ -2,8 +2,14 @@
 #include<iostream>
 #include<vector>
 #include<map>
+#include<deque>
 #include "speaker.h"
 #include<algorithm>
+#include<functional>
+#include<numeric>
+#include<string>
+#include<fstream>
+
 using namespace std;
 
 //设计演讲管理类
@@ -34,6 +40,15 @@ public:
 
 	//开始抽签
 	void speechDraw();
+
+	//比赛
+	void speechContest();
+
+	//显示比赛分数
+	void showScore();
+
+	//保存记录
+	void saveRecord();
 
 	//成员属性
 	//保留第一轮比赛选手编号容器
