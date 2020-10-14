@@ -59,6 +59,11 @@ public:
 	//存放往届记录的容器
 	map<int,vector<string>>m_Record;
 
+	//查看往届得分
+	void showRecord();
+
+	//清空数据
+	void clearRecord();
 
 	//成员属性
 	//保留第一轮比赛选手编号容器
