@@ -1,8 +1,8 @@
-﻿生成启动时间为 2020/10/17 17:45:01。
+﻿生成启动时间为 2020/10/19 0:13:08。
      1>项目“E:\Code\Hello-world\项目4 机房预约系统\机房预约系统\机房预约系统\机房预约系统.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt manager.cpp
-         manager.cpp
+         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "机房预约系统.cpp"
+         机房预约系统.cpp
        Link:
          D:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\Hello-world\项目4 机房预约系统\机房预约系统\Debug\机房预约系统.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\Hello-world\项目4 机房预约系统\机房预约系统\Debug\机房预约系统.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\Hello-world\项目4 机房预约系统\机房预约系统\Debug\机房预约系统.lib" /MACHINE:X86 Debug\manager.obj
          Debug\student.obj
@@ -13,4 +13,4 @@
 
 生成成功。
 
-已用时间 00:00:00.93
+已用时间 00:00:00.89

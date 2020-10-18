@@ -4,7 +4,9 @@ using namespace std;
 #include "Identity.h"
 #include "student.h"
 #include "teacher.h"
+#include "ComputerRoom.h"
 #include<vector>
+#include<algorithm>
 
 //管理员类设计
 class Manager:public Identity
@@ -33,4 +35,7 @@ public:
 	vector<Student> vStu;
 	//老师容器
 	vector<Teacher> vTea;
+
+	//机房容器
+	vector<ComputerRoom> vCom;
 };
