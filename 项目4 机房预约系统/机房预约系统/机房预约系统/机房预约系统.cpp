@@ -44,6 +44,7 @@ void studentMenu(Identity * &student)
 			cout<<"×¢Ïú³É¹¦£¡"<<endl;
 			system("pause");
 			system("cls");
+			break;
 		}
 	}
 }

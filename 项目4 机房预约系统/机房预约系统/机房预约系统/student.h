@@ -5,6 +5,7 @@ using namespace std;
 #include<vector>
 #include"computerRoom.h"
 #include<fstream>
+#include"orderFile.h"
 class Student:public Identity
 {
 public:
